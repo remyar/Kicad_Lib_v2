@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model BSR14
+#/1204691/69706/2.45/3/3/Transistor BJT NPN
+DEF BSR14 Q 0 30 Y Y 1 F N
+F0 "Q" 550 50 50 H V L CNN
+F1 "BSR14" 550 -50 50 H V L CNN
+F2 "BSR14" 550 -150 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/BSR14.pdf" 550 -250 50 H I L CNN
+F4 "Trans GP BJT NPN 40V 0.8A 3-Pin SOT-23" 550 -350 50 H I L CNN "Description"
+F5 "1.2" 550 -450 50 H I L CNN "Height"
+F6 "512-BSR14" 550 -550 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=512-BSR14" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F8 "ON Semiconductor" 550 -750 50 H I L CNN "Manufacturer_Name"
+F9 "BSR14" 550 -850 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 U
+X ~ 2 400 -300 100 U 50 50 0 0 U
+X ~ 3 400 300 100 D 50 50 0 0 U
+P 2 0 1 20 300 100 300 -100 N
+P 2 0 1 6 300 50 400 150 N
+P 2 0 1 6 300 -50 400 -150 N
+P 2 0 1 6 400 -150 400 -200 N
+P 2 0 1 6 400 150 400 200 N
+P 2 0 1 6 100 0 300 0 N
+C 350 0 158 0 1 10 N
+P 4 0 1 10 330 -100 350 -80 370 -120 330 -100 F
+ENDDRAW
+ENDDEF
+#
+#End Library
