@@ -1,5 +1,5 @@
 (module "GWCR0603-100KFT5" (layer F.Cu)
-  (descr "GWCR0603")
+  (descr "0603")
   (tags "Resistor")
   (attr smd)
   (fp_text reference R** (at 0 0) (layer F.SilkS)
