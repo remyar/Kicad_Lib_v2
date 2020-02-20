@@ -14,9 +14,9 @@ F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=756-GWCR0603-4K7FT5" 550 -
 F8 "WELWYN" 550 -550 50 H I L CNN "Manufacturer_Name"
 F9 "GWCR0603-4K7FT5" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
-X ~ 1 0 0 200 R 50 50 0 0 P
-X ~ 2 700 0 200 L 50 50 0 0 P
-P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 60 60 1 1 P
+X ~ 2 0 -150 50 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
