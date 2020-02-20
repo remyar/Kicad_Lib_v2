@@ -5,7 +5,7 @@ EESchema-LIBRARY Version 2.3
 #
 DEF GWCR0603-3K0FT5 R 0 30 Y Y 1 F N
 F0 "R" 0 -50 50 V V L CNN
-F1 "GWCR0603-3K0FT5" 550 150 50 H I L CNN
+F1 "3K0" 100 -50 50 V V L CNN
 F2 "GWCR0603-3K0FT5" 550 50 50 H I L CNN
 F3 "https://componentsearchengine.com/Datasheets/1/GWCR0603-3K0FT5.pdf" 550 -50 50 H I L CNN
 F4 "Thick Film Resistors - SMD 1/10W 3K Ohm 1%" 550 -150 50 H I L CNN "Description"
