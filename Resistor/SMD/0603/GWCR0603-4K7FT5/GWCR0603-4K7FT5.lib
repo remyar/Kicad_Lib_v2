@@ -1,10 +1,11 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
-#SamacSys ECAD Model GWCR0603-4K7FT5
-#/3256773/69706/2.45/2/3/Resistor
+#
+# GWCR0603-4K7FT5
+#
 DEF GWCR0603-4K7FT5 R 0 30 Y Y 1 F N
-F0 "R" 550 250 50 H V L CNN
-F1 "GWCR0603-4K7FT5" 550 150 50 H V L CNN
+F0 "R" 0 -50 50 V V L CNN
+F1 "GWCR0603-4K7FT5" 550 150 50 H I L CNN
 F2 "GWCR0603-4K7FT5" 550 50 50 H I L CNN
 F3 "https://componentsearchengine.com/Datasheets/1/GWCR0603-4K7FT5.pdf" 550 -50 50 H I L CNN
 F4 "Thick Film Resistors - SMD 1/10W 4.7K Ohm 1%" 550 -150 50 H I L CNN "Description"
