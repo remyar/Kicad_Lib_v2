@@ -28,7 +28,7 @@
   (fp_line (start -1.27 -0.635) (end -0.254 -0.635) (layer F.SilkS) (width 0.12))
   (pad 1 smd rect (at -0.66 0) (size 0.83 0.94) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.66 0) (size 0.83 0.94) (layers F.Cu F.Paste F.Mask))
-  (model CC0603KRNPO9BN470.stp
+  (model ./libs/CC0603KRNPO9BN470.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
