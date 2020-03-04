@@ -1,14 +1,14 @@
-(module "LM358ADT" (layer F.Cu)
-  (descr "SO8_1")
+(module LM358ADT (layer F.Cu) (tedit 5E5F9A3B)
+  (descr SO8_1)
   (tags "Integrated Circuit")
   (attr smd)
-  (fp_text reference IC** (at 0 0) (layer F.SilkS)
+  (fp_text reference IC** (at 0 0 90) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
-  (fp_text user %R (at 0 0) (layer F.Fab)
+  (fp_text value LM358ADT (at 0 3.81) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
-  (fp_text value "LM358ADT" (at 0 0) (layer F.SilkS) hide
+  (fp_text user %R (at 0 0 90) (layer F.Fab)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
   (fp_line (start -3.725 -2.75) (end 3.725 -2.75) (layer F.CrtYd) (width 0.05))
@@ -24,7 +24,8 @@
   (fp_line (start 1.6 -2.45) (end 1.6 2.45) (layer F.SilkS) (width 0.2))
   (fp_line (start 1.6 2.45) (end -1.6 2.45) (layer F.SilkS) (width 0.2))
   (fp_line (start -1.6 2.45) (end -1.6 -2.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start -3.475 -2.58) (end -1.95 -2.58) (layer F.SilkS) (width 0.2))
+  (fp_line (start -0.635 -2.413) (end -1.524 -1.524) (layer F.SilkS) (width 0.12))
+  (fp_line (start -1.524 -1.524) (end -1.651 -1.524) (layer F.SilkS) (width 0.12))
   (pad 1 smd rect (at -2.712 -1.905 90) (size 0.65 1.525) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -2.712 -0.635 90) (size 0.65 1.525) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -2.712 0.635 90) (size 0.65 1.525) (layers F.Cu F.Paste F.Mask))
@@ -33,7 +34,7 @@
   (pad 6 smd rect (at 2.712 0.635 90) (size 0.65 1.525) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 2.712 -0.635 90) (size 0.65 1.525) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 2.712 -1.905 90) (size 0.65 1.525) (layers F.Cu F.Paste F.Mask))
-  (model LM358ADT.stp
+  (model ./libs/LM358ADT.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
