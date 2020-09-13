@@ -2,8 +2,11 @@ EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #SamacSys ECAD Model BSR16
 #/166789/69706/2.45/3/3/Integrated Circuit
-DEF BSR16 IC 0 30 Y Y 1 F N
-F0 "IC" 1350 300 50 H V L CNN
+#
+# Transistors:BSR16
+#
+DEF BSR16 Q 0 30 Y Y 1 F N
+F0 "Q" 1350 300 50 H V L CNN
 F1 "BSR16" 1350 200 50 H V L CNN
 F2 "BSR16" 1350 100 50 H I L CNN
 F3 "https://componentsearchengine.com/Datasheets/1/BSR16.pdf" 1350 0 50 H I L CNN
@@ -14,10 +17,14 @@ F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=512-BSR16" 1350 -400 50 H 
 F8 "ON Semiconductor" 1350 -500 50 H I L CNN "Manufacturer_Name"
 F9 "BSR16" 1350 -600 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
-X BASE 1 0 0 200 R 50 50 0 0 U
-X EMITTER 2 0 -100 200 R 50 50 0 0 U
-X COLLECTOR 3 1500 0 200 L 50 50 0 0 U
-P 5 0 1 6 200 100 1300 100 1300 -200 200 -200 200 100 N
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
+X B 1 -200 0 225 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
